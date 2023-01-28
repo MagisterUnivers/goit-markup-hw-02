@@ -5,6 +5,7 @@
     --background-color: #F5F5F5;
     --headerbackground-color: #FFFFFF;
     --footerbackground-color: #2F303A;
+    --headersecondlogopart-color: #000000;
 }
 
 body { 
@@ -24,6 +25,14 @@ font-family: 'Raleway';
     line-height: 1.19;
     color: var(--logo-color);
     text-decoration: none;
+}
+
+.headersecondlogo {
+    color: var(--headersecondlogopart-color);
+}
+
+.footersecond-logo {
+    color: var(--headerbackground-color);
 }
 
 /* Оформление Навигации */
@@ -168,7 +177,7 @@ color: var(--logo-color);
 
 /* Делаем задний фон для футера */
 
-.footeradress {
+.footermainsection {
     background-color: var(--footerbackground-color);
 }
 
