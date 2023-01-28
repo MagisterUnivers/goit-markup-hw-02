@@ -107,14 +107,16 @@ ul {
 
 /* Отдельно ставим измененный курсор */
 
-.filterbutton-collection .pointer {
+.filterbutton-collection, .hero .pointer {
     cursor: pointer;
 }
 
 /* Ставим состояние наведения и TAB */
 
 .filterbutton-collection .button:hover,
-.filterbutton-collection .button:focus {
+.filterbutton-collection .button:focus,
+.hero .button:hover,
+.hero .button:focus {
     color: var(--headerbackground-color);
     background-color: var(--logo-color);
 } 
