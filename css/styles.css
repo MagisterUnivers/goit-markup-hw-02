@@ -59,7 +59,11 @@ color: var(--logo-color);
 .buttoncollection-list, 
 .serviceprojects, 
 .site-link,
-.site-contact {
+.site-contact,
+.footerlist-hideme,
+.serviceadv-list,
+.servicework-list,
+.teammembers-list {
     list-style-type: none;
 }
 
@@ -132,7 +136,6 @@ color: var(--logo-color);
 /* Ставим стили для наших заголовков */
 
 .biggertext {
-        font-weight: 700;
         font-size: 18px;
         line-height: 2.00;
         letter-spacing: 0.06em;
@@ -155,7 +158,6 @@ color: var(--logo-color);
 }
 
 /* Ставим стили для контактов в футере */
-/* Имитация заднего фона, потому - что без него не видно ничего */
 
 .footeradress-city {
         font-size: 14px;
@@ -163,12 +165,10 @@ color: var(--logo-color);
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--headerbackground-color);
-        background-color: #2F303A;
         text-decoration: none;
 }
 
 /* Ставим стили для контактов в футере */
-/* Имитация заднего фона, потому - что без него не видно ничего */
 
 .footeradress-mail, 
 .footeradress-phonenumber {
@@ -176,7 +176,6 @@ color: var(--logo-color);
         font-style: normal;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        background-color: #2F303A;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 }
@@ -189,7 +188,7 @@ color: var(--logo-color);
 
 /* Создаем стиль заголовок <main> */
 
-.hero h1 {
+.hero .heromain-title {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -200,7 +199,7 @@ color: var(--logo-color);
 
 /* Создаем стиль заголовка "Преимущества сервиса" */
 
-.service-adventagetitle h3 {
+.service-adventagetitle .serviceadv-biggertext {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -218,11 +217,11 @@ color: var(--logo-color);
         color: var(--secondarytext-color);
 }
 
-/* Создаем стиль заголовка "Примеры работ сервиса" */
+/* Создаем стиль заголовка "Примеры работ сервиса" и "Наша  команда" */
 
-.service-work h2 {
+.service-work .servicework-biggertext,
+.teammembers .teammembers-biggertext {
   
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
@@ -232,7 +231,7 @@ color: var(--logo-color);
 
 /* Создаем стиль заголовка "Наша команда" */
 
-.teammembers h3 {
+.teammembers .teammembers-teamname {
 
         font-weight: 500;
         font-size: 16px;
@@ -243,7 +242,7 @@ color: var(--logo-color);
 
 /* Создаем стиль текста секции "Наша Команда" */
 
-.teammembers p {
+.teammembers .teammebers-teamdesc {
 
         font-size: 16px;
         line-height: 1.18;
@@ -252,20 +251,20 @@ color: var(--logo-color);
 }
 
 /* Битва с валидатором // КОСТЫЛЬ */
-
+/*
 .filterbutton-collection,
 .serviceprojects .hideme {
 visibility: hidden;
 
 }
-
+*/
 /* ROUND 2 ---> FIGHT! */
-
+/*
 .serviceprojects, 
 .filterbutton-collection ul {
     visibility: visible;
 }
-
+*/
 /* YOUR OPONNENT HAS DOWNED */
 /* FINISH HIM!!!!!!!!!!!! */
 /* FATALITYYYYYYYYYYYYYYY */
