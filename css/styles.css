@@ -248,3 +248,22 @@ ul {
         letter-spacing: 0.03em;
         color: var(--secondarytext-color);
 }
+
+/* Битва с валидатором // КОСТЫЛЬ */
+
+.filterbutton-collection,
+.serviceprojects .hideme {
+visibility: hidden;
+
+}
+
+/* ROUND 2 ---> FIGHT! */
+
+.serviceprojects, 
+.filterbutton-collection ul {
+    visibility: visible;
+}
+
+/* YOUR OPONNENT HAS DOWNED */
+/* FINISH HIM!!!!!!!!!!!! */
+/* FATALITYYYYYYYYYYYYYYY */
