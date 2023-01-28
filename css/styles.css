@@ -39,11 +39,20 @@ font-family: 'Raleway';
         
 }
 
-/* Выбираем второе портфолио и назначаем ему цвет без отдельного класса */
+/*Добавляем эффект hover + focus на Панель Навигации */
 
-.site-nav .link[href*="portfolio"] {
-    color: var(--logo-color)
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--logo-color);
 }
+
+
+/* Выбираем второе портфолио и назначаем ему цвет без отдельного класса */
+/*
+.site-nav .link[href*="portfolio"] {  Сначала я думал что портфолио
+    color: var(--logo-color)       просто само по себе другого цвета
+}
+*/
 
 /* Как же задолбали эти значки списков */
 
@@ -55,7 +64,7 @@ ul {
 
 .site-contact .site-contactlink {
     
-        color: var(--logo-color);
+        color: var(--secondarytext-color);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -63,14 +72,23 @@ ul {
         text-decoration: none;
 }
 
-/* Такой же метод что и с навигацией */
+/* Исправил свою ошибку. 5 утра не даются легко. Это hover + focus элементы */
 
+.site-contactlink:hover,
+.site-contactlink:focus {
+    color: var(--logo-color);
+}
+
+/* Такой же метод что и с навигацией */
+/*
 .site-contact .site-contactlink[href*="tel"] {
     color: var(--secondarytext-color);
     
-}
+}*/
 
+/* Portfolio.html */
 /* Центрируем Фильтр */
+/* <main> section start */
 
 .filterbutton-collection {
     align-content: center
@@ -156,3 +174,4 @@ ul {
         background-color: #2F303A;
         color: rgba(255, 255, 255, 0.6);
 }
+
