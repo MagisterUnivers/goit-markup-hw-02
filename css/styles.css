@@ -46,6 +46,12 @@ font-family: 'Raleway';
 color: var(--logo-color);
 }
 
+/* Попытка сделать подсветку текущей страницы */
+
+.studiolink:active, .studiolink:focus {
+    color: var(--logo-color)
+}
+
 
 /* Выбираем второе портфолио и назначаем ему цвет без отдельного класса */
 /*
@@ -79,7 +85,7 @@ color: var(--logo-color);
         text-decoration: none;
 }
 
-/* Исправил свою ошибку. 5 утра не даются легко. Это hover + focus элементы */
+/* Это hover + focus элементы */
 
 .site-contactlink:hover,
 .site-contactlink:focus {
@@ -104,11 +110,20 @@ color: var(--logo-color);
 /* Основные параметры кнопок */
 
 .button {
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.03em;
         color: var(--primarytext-color);
+}
+
+/* Стиль основной кнопки "Заказать услугу" ---) "СТУДИЯ" */
+
+.hero .button {
+    background-color: var(--logo-color);
+    color: var(--headerbackground-color);
+
 }
 
 /* Отдельно ставим измененный курсор */
@@ -229,7 +244,7 @@ color: var(--logo-color);
         color: var(--primarytext-color);
 }
 
-/* Создаем стиль заголовка "Наша команда" */
+/* Создаем стиль заголовка H3 "Наша команда" */
 
 .teammembers .teammembers-teamname {
 
