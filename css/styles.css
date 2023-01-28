@@ -177,3 +177,19 @@ ul {
         color: rgba(255, 255, 255, 0.6);
 }
 
+
+/* WEBSTUDIO DEVELOPMENT CSS */
+/* С этого места будет CSS "Студии" */
+/* Да, я начал делать ее вторую, потому - что полностью забыл про нее */
+
+
+/* Создаем заголовок <main> */
+
+.hero h1 {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
