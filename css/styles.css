@@ -145,10 +145,10 @@ ul {
         color: var(--secondarytext-color);
 }
 
-/* Убираем полоску underline в футере */
+/* Делаем задний фон для футера */
 
-.footeradress a {
-    text-decoration: none;
+.footeradress {
+    background-color: var(--footerbackground-color);
 }
 
 /* Ставим стили для контактов в футере */
@@ -156,10 +156,12 @@ ul {
 
 .footeradress-city {
         font-size: 14px;
+        font-style: normal;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--headerbackground-color);
         background-color: #2F303A;
+        text-decoration: none;
 }
 
 /* Ставим стили для контактов в футере */
@@ -168,10 +170,12 @@ ul {
 .footeradress-mail, 
 .footeradress-phonenumber {
         font-size: 14px;
+        font-style: normal;
         line-height: 1.71;
         letter-spacing: 0.03em;
         background-color: #2F303A;
         color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
 }
 
 
