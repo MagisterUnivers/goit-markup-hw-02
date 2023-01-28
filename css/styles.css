@@ -139,7 +139,6 @@ ul {
 /* Ставим стили для наших текстов под заголовками */
 
 .text {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
@@ -156,7 +155,6 @@ ul {
 /* Имитация заднего фона, потому - что без него не видно ничего */
 
 .footeradress-city {
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -169,7 +167,6 @@ ul {
 
 .footeradress-mail, 
 .footeradress-phonenumber {
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -208,7 +205,6 @@ ul {
 /* Создаем стиль текста "Преимущества сервиса" */
 
 .service-text {
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -242,7 +238,6 @@ ul {
 
 .teammembers p {
 
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
