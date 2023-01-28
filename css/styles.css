@@ -56,7 +56,10 @@ color: var(--logo-color);
 
 /* Как же задолбали эти значки списков */
 
-ul {
+.buttoncollection-list, 
+.serviceprojects, 
+.site-link,
+.site-contact {
     list-style-type: none;
 }
 
