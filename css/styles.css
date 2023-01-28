@@ -97,7 +97,6 @@ ul {
 /* Основные параметры кнопок */
 
 .button {
-    ;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -122,6 +121,7 @@ ul {
 } 
 
 /* Подготавливаем есто для нашего бокса с контентом */
+
 .serviceprojects {
     align-content: center;
 }
