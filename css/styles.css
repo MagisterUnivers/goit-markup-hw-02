@@ -5,7 +5,6 @@
     --background-color: #F5F5F5;
     --headerbackground-color: #FFFFFF;
     --footerbackground-color: #2F303A;
-
 }
 
 body { 
@@ -24,6 +23,7 @@ font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
     color: var(--logo-color, #000000);
+    text-decoration: none;
 }
 
 /* Оформление Навигации */
@@ -100,3 +100,50 @@ ul {
     color: var(--headerbackground-color);
     background-color: var(--logo-color);
 } 
+
+/* Подготавливаем есто для нашего бокса с контентом */
+.serviceprojects {
+    align-content: center;
+}
+
+/* Ставим стили для наших заголовков */
+
+.biggertext {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.00;
+        letter-spacing: 0.06em;
+        color: var(--primarytext-color)
+}
+
+/* Ставим стили для наших текстов под заголовками */
+
+.text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: var(--secondarytext-color)
+}
+
+/* Ставим стили для контактов в футере */
+
+.footeradress-city {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--headerbackground-color)
+}
+
+/* Ставим стили для контактов в футере */
+
+.footeradress-mail, 
+.footeradress-phonenumber {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
