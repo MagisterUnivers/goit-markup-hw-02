@@ -126,17 +126,26 @@ ul {
         color: var(--secondarytext-color)
 }
 
+/* Убираем полоску underline в футере */
+
+.footeradress a {
+    text-decoration: none;
+}
+
 /* Ставим стили для контактов в футере */
+/* Имитация заднего фона, потому - что без него не видно ничего */
 
 .footeradress-city {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        color: var(--headerbackground-color)
+        color: var(--headerbackground-color);
+        background-color: #2F303A;
 }
 
 /* Ставим стили для контактов в футере */
+/* Имитация заднего фона, потому - что без него не видно ничего */
 
 .footeradress-mail, 
 .footeradress-phonenumber {
@@ -144,6 +153,6 @@ ul {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-    
+        background-color: #2F303A;
         color: rgba(255, 255, 255, 0.6);
 }
