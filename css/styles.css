@@ -57,7 +57,7 @@ color: var(--logo-color);
 
 /* Попытка сделать подсветку текущей страницы */
 
-.studiolink:active, .studiolink:focus {
+.site-nav .link.current {
     color: var(--logo-color)
 }
 
